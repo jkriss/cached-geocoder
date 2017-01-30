@@ -24,10 +24,3 @@ module.exports = function(opts) {
     selectProvider: geocoder.selectProvider
   }
 }
-
-if (require.main === module) {
-  const cachedGeocoder = module.exports()
-  cachedGeocoder.geocode("56 Burditt Ave, Hingham, MA 02043, USA", function(err, result) {
-    console.log("final result", err, JSON.stringify(result, null, 2), typeof result)
-  })
-}
