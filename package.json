@@ -1,0 +1,15 @@
+{
+  "name": "cached-geocoder",
+  "version": "1.0.0",
+  "description": "A level-db backed caching geocoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Kriss <jesse@jklabs.net>",
+  "license": "ISC",
+  "dependencies": {
+    "geocoder": "^0.2.2",
+    "level": "^1.5.0"
+  }
+}
